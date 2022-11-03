@@ -1,53 +1,37 @@
 
 html, body {
-text-align: left;
+text-align: center;
 }
-p {text-align: left;}
+
+
+.textbox { 
+    border: 1px solid #848484; 
+    -moz-border-radius-topleft: 30px;
+    -webkit-border-top-left-radius: 30px;
+    border-top-left-radius: 30px;
+    -moz-border-radius-topright: 30px;
+    -webkit-border-top-right-radius: 30px;
+    border-top-right-radius: 30px;
+    border: 1px solid #848484;
+    outline:0; 
+    height:25px; 
+    width: 275px; 
+    padding-left:20px; 
+    padding-right:20px;
+} 
+
+.textbox1 { 
+    border: 1px dotted #000000; 
+    outline:0; 
+    height:25px; 
+    width: 275px; 
+} 
 
 body {
-	margin: 0;
-	padding: 0;
+	margin: 1;
+	padding: 1;
 	background: #303030;
 	background-image:url(background.gif);
-	text-align: left;
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-	font-size: 13px;
 	color: #000000;
 }
-*
-{
-  margin: 0 auto 0 auto;
- text-align:left;}
-
-p {text-align: left;}
-
-#page
-{
-  width:581px;
-}
-
-#header
-{
-width:581px;
-height:90px;
-background-image:url(header.png);
-clear:both;
-}
-
-<style>
-p {
-  background-image: url('2.jpg');
-}
-</style> 
-
-
-#header img
-{
-display:block;
-margin:0 auto 0 auto;
-padding-top:40px;
-}
-
-
-
-
