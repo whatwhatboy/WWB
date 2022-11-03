@@ -1,0 +1,53 @@
+
+html, body {
+text-align: left;
+}
+p {text-align: left;}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #303030;
+	background-image:url(background.gif);
+	text-align: left;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #000000;
+}
+*
+{
+  margin: 0 auto 0 auto;
+ text-align:left;}
+
+p {text-align: left;}
+
+#page
+{
+  width:581px;
+}
+
+#header
+{
+width:581px;
+height:90px;
+background-image:url(header.png);
+clear:both;
+}
+
+<style>
+p {
+  background-image: url('2.jpg');
+}
+</style> 
+
+
+#header img
+{
+display:block;
+margin:0 auto 0 auto;
+padding-top:40px;
+}
+
+
+
+
